@@ -1,4 +1,5 @@
 ### Hi there 👋
+Find out more in my [Github Page](https://tay-jie-wen-marcus.github.io/)
 
 <!--
 **Tay-Jie-Wen-Marcus/tay-jie-wen-marcus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
