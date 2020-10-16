@@ -3,6 +3,10 @@ This repository is for me to keep track of interesting projects that I am involv
 
 Find out more in my [Github Page](https://tay-jie-wen-marcus.github.io/)
 
+## About myself
+I am a final year undergraduate at Singapore Management University (SMU) pursuing a Bachelor of Science in Information Systems and majoring in Business Analytics. I enjoy working on data engineering and machine learning algorithms!
+
+
 <!--
 **Tay-Jie-Wen-Marcus/tay-jie-wen-marcus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
