@@ -1,0 +1,49 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.breadcrumb{
+    font-size: small;
+}
+
+.zero-padding {
+    background-color: white;
+    padding-left: 0%;
+}
+
+.title-text {
+    width: 60%;
+    float: left;
+}
+
+.title-date {
+    width: 20%;
+    float: right;
+}
+
+#first {
+    float: left;
+    width: 100%;
+}
+
+#second {
+    float: right;
+    width: 100%;
+}
+
+/* #third {
+    width: 50%;
+} */
+
+
+@media screen and (min-width: 600px) {
+    #first {
+        float: left;
+        width: 50%;
+    }
+
+    #second {
+        float: right;
+        width: 50%;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Main body -->
+    <div class="container-sm">
+        <!-- header -->
+        <header>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb zero-padding">
+                    <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">SINGAPORE</li>
+                </ol>
+            </nav>
+            <div class="row">
+                <div class="col-8">
+                    <h3 class="display-5">Dashboard of the COVID-19 Virus Outbreak in Singapore </h3>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <p class="text-center small border p-2">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar4" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M14 2H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z" />
+                            <path fill-rule="evenodd"
+                                d="M14 2H2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2H2z" />
+                            <path fill-rule="evenodd"
+                                d="M3.5 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zm9 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        1 JANUARY 2020 TO TODAY
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- generic info -->
+        <div class="row">
+            <div class="col-md border mx-3 mt-3 p-3">
+                <p class="m-0 small">TOTAL CASES</p>
+                <p class="m-0 lead">43,661 </p>
+                <canvas id="newCasesLine" width="100%" height="10%"></canvas>
+            </div>
+            <div class="col-md border mx-3 mt-3 p-3">
+                <p class="m-0 small">ACTIVE</p>
+                <p class="m-0 lead">6,270 </p>
+                <canvas id="activeCasesLine" width="100%" height="10%"></canvas>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md border mx-3 mt-3 p-3">
+                <p class="m-0 small">DECEASED</p>
+                <p class="m-0 lead">26 </p>
+                <canvas id="deceasedCasesLine" width="100%" height="10%"></canvas>
+            </div>
+            <div class="col-md border mx-3 mt-3 p-3">
+                <p class="m-0 small">DISCHARGED</p>
+                <p class="m-0 lead">37,163 </p>
+                <canvas id="dischargedCasesLine" width="100%" height="10%"></canvas>
+            </div>
+        </div>
+
+        <!-- overview -->
+        <div class="row">
+            <div class="col-md-8 mt-3 p-3">
+                <div class="col-md-12 border h-1">
+                    <canvas id="summaryCasesLine" width="100%" height="400%"></canvas>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3 p-3">
+                <div class="col-md-12 border">
+                    <canvas id="breakdownCasesLine" width="100%" height="400%"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

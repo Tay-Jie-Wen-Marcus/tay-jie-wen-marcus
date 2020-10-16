@@ -1,0 +1,3 @@
+# Gym Cart Pole - Deep Q Learning
+
+This is my first look at reinforcement learning with PyTorch to play OpenAI Gym Cart Pole game. Code material follows that of the tutorial [Build Deep Q-Network - Reinforcement Learning Code Project](https://www.youtube.com/watch?v=PyQNfsGUnQA) by Youtube Channel [Deeplizard](https://www.youtube.com/channel/UC4UJ26WkceqONNF5S26OiVw) and all credits belong to owners of the channel. It is a brilliant channel that explains complicated concepts in a simple and easy to understand manner so do check them out to learn!
