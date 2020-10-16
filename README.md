@@ -1,7 +1,7 @@
 ### Hi there 👋
 This repository is for me to keep track of interesting projects that I am involved in, which I have come across in school or at work. It is for me to track my own learning and receive feedback to improve!
 
-Find out more in my [Github Page](https://tay-jie-wen-marcus.github.io/)
+Find out more in my [Github Page](https://tay-jie-wen-marcus.github.io/tay-jie-wen-marcus)
 
 ## About myself
 I am a final year undergraduate at Singapore Management University (SMU) pursuing a Bachelor of Science in Information Systems and majoring in Business Analytics. I enjoy working on data engineering and machine learning algorithms!
